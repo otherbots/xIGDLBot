@@ -26,7 +26,7 @@ def start(update, context):
 
 
 def help(update, context):
-    update.message.reply_text('''/stories username - Download stories from the username’s profile.\n/igtv username - Download IGTV videos from the username’s profile.\n\n<b>How to find the username?</b>\nOpen Instagram app & then go to a profile that you want to download items. Username must be on the top.\nIn case you are using a browser you can find it in the Address bar.\n<b>Example : </b>Username for instagram.com/rashmika_mandanna & @rashmika_mandanna is 'rashmika_mandanna' 😉''', parse_mode=telegram.ParseMode.HTML)
+    update.message.reply_text('''/stories username - Download stories from the username’s profile.\n/igtv username - Download IGTV videos from the username’s profile.\n/feed username - Download all posts from the username’s profile as a zip file.\n\n<b>How to find the username?</b>\nOpen Instagram app & then go to a profile that you want to download items. Username must be on the top.\nIn case you are using a browser you can find it in the Address bar.\n<b>Example : </b>Username for instagram.com/rashmika_mandanna & @rashmika_mandanna is 'rashmika_mandanna' 😉''', parse_mode=telegram.ParseMode.HTML)
 
 
 def about(update, context):
@@ -174,7 +174,7 @@ def feed(update, context):
 
     update.message.reply_text("Download Completed.\n🗄 Archiving files...")
 
-    zf = zipfile.ZipFile("images.zip", "w")
+    zf = zipfile.ZipFile(f"{query}.zip", "w")
     for dirname, subdirs, files in os.walk(query):
         zf.write(query)
         for filename in files:
