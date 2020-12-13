@@ -38,13 +38,13 @@ sudo pacman -S docker python
 
 Install Docker by following the [official docker docs](https://docs.docker.com/engine/install/debian/)
 
-<h3>Edit bot token</h3>
+<h4>Edit bot token</h4>
 ```
 sudo nano bot.py
 ```
 <p>Get a bot token from @BotFather and paste it inside "".</p>
 
-<h3>Deploying</h3>
+<h4>Deploying</h4>
 
 - Start docker daemon (skip if already running):
 ```
