@@ -15,9 +15,6 @@
   <li>Add highlights download support</li>
 </ul>
 
-# What is this repo about?
-This is a telegram bot writen in python for mirroring files on the internet to our beloved Google Drive.
-
 <h3>How to deploy?</h3>
 Deploying is pretty much straight forward and is divided into several steps as follows:
 
