@@ -22,7 +22,7 @@ bot = Bot(token=bot_token)
 
 def start(update, context):
     context.bot.send_message(chat_id=update.message.chat_id,
-                             text="Instagram Media Downloader Bot.\nPlease join @NandiyaThings & the Support Chat.", parse_mode=telegram.ParseMode.HTML)
+                             text="Instagram Media Downloader Bot.\nPlease join @MBNUpdates & the Support Chat.\nRead /help before using.", parse_mode=telegram.ParseMode.HTML)
 
 
 def help(update, context):
