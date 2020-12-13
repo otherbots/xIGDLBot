@@ -16,7 +16,6 @@
 </ul>
 
 <h3>How to deploy?</h3>
-Deploying is pretty much straight forward and is divided into several steps as follows:
 
 <h4>Installing requirements</h4>
 
