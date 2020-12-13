@@ -40,9 +40,9 @@ Install Docker by following the [official docker docs](https://docs.docker.com/e
 
 <h4>Edit bot token</h4>
 ```
-sudo pacman -S docker python
+sudo nano bot.py
 ```
-<p>Get a bot token from @BotFather and paste it inside "".</p>
+Get a bot token from @BotFather and paste it inside "".
 
 <h4>Deploying</h4>
 
