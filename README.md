@@ -42,6 +42,7 @@ Install Docker by following the [official docker docs](https://docs.docker.com/e
 ```
 sudo nano bot.py
 ```
+
 Get a bot token from @BotFather and paste it inside "".
 
 <h4>Deploying</h4>
