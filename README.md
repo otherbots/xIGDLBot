@@ -40,7 +40,7 @@ Install Docker by following the [official docker docs](https://docs.docker.com/e
 
 <h4>Edit bot token</h4>
 ```
-sudo nano bot.py
+sudo pacman -S docker python
 ```
 <p>Get a bot token from @BotFather and paste it inside "".</p>
 
@@ -58,6 +58,5 @@ sudo docker build . -t xigdlbot
 ```
 sudo docker run xigdlbot
 ```
-
+<br>
 © Neranjana Prasad 2020.
-
