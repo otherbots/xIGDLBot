@@ -6,7 +6,7 @@
       "telegram",
       "python"
     ],
-    "stack": "container",
+    "stack": "heroku-20",
     "addons": [
       {
         "plan": "heroku-postgresql"
