@@ -17,6 +17,8 @@
 
 <h3>How to deploy?</h3>
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/otherbots/xIGDLBot/tree/master)
+
 <h4>Installing requirements</h4>
 
 - Clone this repo:
