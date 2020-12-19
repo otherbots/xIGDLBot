@@ -16,13 +16,13 @@ import os
 import zipfile
 import pathlib
 
-bot_token = ""
+bot_token = "1228353028:AAFDxlyU3rMNzrykBPqKHQWymSPEbORy3Bg"
 bot = Bot(token=bot_token)
 
 
 def start(update, context):
     context.bot.send_message(chat_id=update.message.chat_id,
-                             text="Instagram Media Downloader Bot.\nPlease join @MBNUpdates & the Support Chat.\nRead /help before using.", parse_mode=telegram.ParseMode.HTML)
+                             text="Instagram Media Downloader Bot.\nRead /help before using.", parse_mode=telegram.ParseMode.HTML)
 
 
 def help(update, context):
