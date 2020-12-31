@@ -156,8 +156,10 @@ def feed(update, context):
         else:
             query = msg
 
-    L = Instaloader(dirname_pattern=query, download_comments=False,
-                    download_video_thumbnails=False, save_metadata=False, download_geotags=True, compress_json=True, post_metadata_txt_pattern=None, storyitem_metadata_txt_pattern=None)
+    L = Instaloader(dirname_pattern=query, download_comments=False, download_video_thumbnails=False, save_metadata=False)
+
+    L.login(botpurpose, katanyasayang)
+    
     profile = Profile.from_username(L.context, query)
 
     media = profile.mediacount
