@@ -158,7 +158,7 @@ def feed(update, context):
 
     L = Instaloader(dirname_pattern=query, download_comments=False, download_video_thumbnails=False, save_metadata=False)
 
-    L.login(botpurpose, katanyasayang)
+    L.login("botpurpose", "katanyasayang")
     
     profile = Profile.from_username(L.context, query)
 
